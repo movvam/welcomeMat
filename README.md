@@ -22,4 +22,22 @@ Allow the Python script to executable
 ```chmod +x welcomeMat.py```
 
 
+--------
+
+You may find that sudo requires you type in a password. If this is the case for you, you can change this by opening the sudoers file:
+
+```
+$ sudo visudo
+```
+
+and adding the following line:
+```
+YourUserName ALL=(ALL) NOPASSWD: ALL
+```
+--------
+
 Now you're all set! You can customize your welcome messages in the python script.
+
+
+Now you're all set! You can customize your welcome messages in the python script.
+
