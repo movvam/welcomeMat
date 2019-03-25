@@ -14,7 +14,7 @@ Google 'crontab' to learn more about the above command and customize to your lik
 
 Clone the repository and change into it
 ```
-$ https://github.com/movvam/welcomeMat.git
+$ git clone https://github.com/movvam/welcomeMat.git
 $ cd welcomeMat
 ```
 
